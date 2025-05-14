@@ -98,9 +98,19 @@ section.galery {
   }
 }
 
-@keyframes image-appear {
+@media (max-width: 80rem) {
+  .content {
+    grid-template-areas:
+      "A A A"
+      "B B B"
+      "C C C"
+      "D D D" !important;
+  }
+}
+
+/* @keyframes image-appear {
   from {
     opacity: 0;
     transform: translateY(100%);
   }
-}
+} */

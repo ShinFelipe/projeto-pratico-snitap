@@ -40,6 +40,12 @@ h1 {
   line-height: 1.25;
 }
 
+@media (width < 80rem) {
+  h1 {
+    font-size: var(--text-lg); 
+  }
+}
+
 h2 {
   font-size: var(--text-lg);
   line-height: 1.2;
